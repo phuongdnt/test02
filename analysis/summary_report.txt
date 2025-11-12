@@ -3,11 +3,11 @@ TRAINING RESULTS SUMMARY
 ======================================================================
 
 📊 OVERALL PERFORMANCE:
-  Number of seeds: 5
-  Mean reward: -0.0112 ± 0.0127
+  Number of seeds: 6
+  Mean reward: -0.0105 ± 0.0115
   Best reward: -0.0009 (seed 1)
   Worst reward: -0.0334 (seed 1)
-  Improvement: +87.0% (from -44.16 to -5.75)
+  Improvement: +100.3% (from -48.61 to 0.16)
 
 📈 BULLWHIP EFFECT:
   Mean bullwhip: 0.0000 ± 0.0000
@@ -36,32 +36,36 @@ TRAINING RESULTS SUMMARY
     Reward: -0.0072
     Bullwhip: 0.0000 (σ=0.0000)
 
+  Seed 1:
+    Reward: -0.0072
+    Bullwhip: 0.0000 (σ=0.0000)
+
 📉 EPISODE METRICS:
-  Total episodes: 50
+  Total episodes: 5000
   Service level:
-    Initial: 0.7689
-    Final: 0.9237
-    Mean: 0.8443 ± 0.0599
+    Initial: 0.7460
+    Final: 0.9438
+    Mean: 0.8465 ± 0.0604
   Order variance (final 10 episodes):
-    Agent 0: 0.4809
-    Agent 1: 0.4894
-    Agent 2: 0.4795
+    Agent 0: 0.5013
+    Agent 1: 0.5026
+    Agent 2: 0.5047
 
 🎯 RULE USAGE SUMMARY (Last 100 Episodes):
   Agent 0:
-    FOQ:  22.4%
-    POQ:  51.0%
-    SM:   26.6%
-    → Dominant: POQ (51.0%)
+    FOQ:  15.2%
+    POQ:  65.1%
+    SM:   19.7%
+    → Dominant: POQ (65.1%)
   Agent 1:
-    FOQ:  24.2%
-    POQ:  30.6%
-    SM:   45.2%
-    → Dominant: SM (45.2%)
+    FOQ:  19.7%
+    POQ:  30.4%
+    SM:   49.9%
+    → Dominant: SM (49.9%)
   Agent 2:
-    FOQ:  45.0%
-    POQ:  30.6%
-    SM:   24.3%
-    → Dominant: FOQ (45.0%)
+    FOQ:  49.9%
+    POQ:  30.4%
+    SM:   19.7%
+    → Dominant: FOQ (49.9%)
 
 ======================================================================

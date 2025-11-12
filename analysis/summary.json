@@ -45,22 +45,31 @@
       "bullwhip_agent0": 0,
       "bullwhip_agent1": 0,
       "bullwhip_agent2": 0
+    },
+    {
+      "seed": 1,
+      "reward": -0.0072,
+      "bullwhip_mean": 0,
+      "bullwhip_std": 0,
+      "bullwhip_agent0": 0,
+      "bullwhip_agent1": 0,
+      "bullwhip_agent2": 0
     }
   ],
   "statistics": {
-    "num_seeds": 5,
-    "mean_reward": -0.011179999999999999,
-    "std_reward": 0.012717389669267824,
+    "num_seeds": 6,
+    "mean_reward": -0.010516666666666665,
+    "std_reward": 0.011490242237075187,
     "best_reward": -0.0009,
     "worst_reward": -0.0334,
     "mean_bullwhip": 0.0,
     "std_bullwhip": 0.0
   },
   "episode_stats": {
-    "num_episodes": 50,
-    "mean_service_level": 0.8442894981239164,
-    "final_service_level": 0.923661469022688,
-    "initial_reward": -44.15581666490373,
-    "final_reward": -5.752822172608943
+    "num_episodes": 5000,
+    "mean_service_level": 0.8464503695095041,
+    "final_service_level": 0.9437515436395861,
+    "initial_reward": -48.61081666490374,
+    "final_reward": 0.1563790014822632
   }
 }
